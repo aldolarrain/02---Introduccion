@@ -1,0 +1,97 @@
+//for (let inicio: condicion; incremento){
+// code...
+// } 
+
+let numero = 1;
+const limit =  20;
+const initial = 10;
+//para el valor inicial se puede usar i j k
+for(let i = initial; i<=limit; i++){
+  const result =i*numero;
+  console.log(`${i}x${numero} = ${result}`);
+}
+
+console.log("********************************")
+
+
+for(let i = initial; i<=limit; i++){
+  const result =i*numero;
+  if(i%2===0)
+  {
+  console.log(`${i}x${numero} = ${result}`);
+  }
+}
+
+
+for(let i = 1; i<=5; i++){
+  for(let j = 1; j<=5; j++){
+    console.log(`x, y = (${i},${j})`);
+  } 
+}
+
+//while(){
+// Code..
+// }
+let index = 1;
+while(index <= 10) {
+  const result =index*numero;
+  console.log(`${index}x${numero}= ${result}`);
+  index++;
+}
+
+// do{
+  // code...
+  // }while(condicion)
+  
+  index = 1;
+  do{
+    const result =index*numero;
+    console.log(`${index}x${numero}= ${result}`);
+    index++;
+  }while(index<= 10);
+  
+/*switch(valor){
+  case:"10":
+    code...
+  break;
+  case:'otro_valor'  :  -> if(valor === 'ootro_valor')
+    code...
+    break;
+    default:
+      code...
+      break
+}
+*/
+const PROTOCOL = "";
+switch(PROTOCOL){
+  case "HTTP":
+    console.log("El sitio es inseguro");
+    break;
+    case "HTTPS":
+      console.log("El sitio es seguro");
+      break;
+    case "SSH":
+      console.log("Super admin en servidor");
+      break;
+    default:
+      console.log("No encontrado");
+      break;
+}
+
+
+
+
+console.log("NO TERMINADOOOOOOOOOOOOOOOOOOOOOOO!!!!!!!!!")
+
+// const PROTOCOL = "HTTPS";
+// let message = "NO ENCONTRADO";
+// if(PROTOCOL==="HTTP"||PROTOCOL==="HTTPS")
+// {
+//   message = "Es un sitio web";
+// }
+
+
+
+
+
+
